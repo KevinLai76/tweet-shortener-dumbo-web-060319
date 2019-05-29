@@ -14,5 +14,6 @@ end
 
 def word_substituter(tweets)
   new_tweet = ""
-  
+  word_bank = dictionary.keys
+  tweets.
 end
