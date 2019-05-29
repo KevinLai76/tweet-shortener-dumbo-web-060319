@@ -16,6 +16,7 @@ def word_substituter(tweets)
   new_tweet = ""
   word_bank = dictionary.keys
   tweets.split(" ").each do |word|
-    if 
+    if word_bank.include?(word)
+      dic      
   
 end
