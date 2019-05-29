@@ -19,7 +19,7 @@ def word_substituter(tweets)
   word_bank = dictionary.keys
   tweets.split(" ").each do |word|
     if word_bank.include?(word.downcase)
-      new_tweet << dictionary[word]
+      new_tweet << dictionary[word.downcase]
     else 
       new_tweet << word
     end 
